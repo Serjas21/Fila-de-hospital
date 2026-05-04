@@ -20,6 +20,6 @@ Gerenciamento de Memória: Alocação dinâmica de memória com limpeza (free) e
 📋 Como funciona a lógica de atendimento?
 Prioridade: Por padrão, quem tem Prioridade: 2 fica à frente.
 
-Tempo de Espera: O sistema verifica se algum paciente (independente da prioridade) excedeu o limite de segurança (ex: 15 segundos).
+Tempo de Espera: O sistema verifica se algum paciente (independente da prioridade) excedeu o limite de segurança (ex: 900 segundos).
 
 Decisão: Se alguém excedeu o tempo, essa pessoa é atendida imediatamente. Caso contrário, segue-se a ordem da fila de prioridade.
